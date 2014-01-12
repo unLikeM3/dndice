@@ -1,0 +1,59 @@
+/* ELEMENTS */
+.el-right{
+	float: right;
+}
+.el-left{
+	float: left;
+}
+.el-center{
+	margin: 0 auto;
+}
+.small-padding{
+	padding: 10px;
+}
+.padding{
+	padding: 20px;
+}
+.big-padding{
+	padding: 30px;
+}
+.small-margin{
+	margin: 10px;
+}
+.margin{
+	margin: 20px;
+}
+.big-margin{
+	margin: 30px;
+}
+
+
+/* TEXT */
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+
+/* VISIBILITY */
+
+@media (max-width: 480px){
+	.hide-phone{
+		display: none;
+	}
+	.show-phone{
+		display: none;
+	}		
+}
+@media (max-width: 768px){
+	.hide-tablet{
+		display: none;
+	}
+	.show-tablet{
+		display: none;
+	}		
+}
